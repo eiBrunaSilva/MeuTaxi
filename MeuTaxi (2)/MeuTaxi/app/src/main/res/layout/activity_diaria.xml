@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9EFFE82C"
+    android:orientation="vertical"
+    tools:context=".DiariaActivity">
+
+    <EditText
+        android:id="@+id/et_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Data"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/et_hora_inicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hora de início"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_km_inicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kilomentragem inicial"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt_nova_corrida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar nova corrida" />
+
+    <Button
+        android:id="@+id/bt_novo_gasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar novo gasto" />
+
+    <Button
+        android:id="@+id/bt_listar_corridas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar corridas feitas" />
+
+    <EditText
+        android:id="@+id/et_km_final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kilometragem final"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_preco_km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Preço kilômetro"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_combustivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Combustível"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_comissão"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Comissão"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_hora_fim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hora de fim"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt_encerrar_diaria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encerrar diária" />
+</LinearLayout>

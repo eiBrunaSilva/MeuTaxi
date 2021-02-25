@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9EFFE82C">
+
+    <EditText
+        android:id="@+id/et_valor_corrida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="562dp"
+        android:ems="10"
+        android:hint="Valor"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/bt_adicionar_corrida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar corrida"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587" />
+
+    <TextView
+        android:id="@+id/tv_selecionar_pagamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione a forma de pagamento:"
+        app:layout_constraintTop_toBottomOf="@+id/et_valor_corrida"
+        tools:layout_editor_absoluteX="94dp" />
+
+    <RadioGroup
+        android:id="@+id/rg_pagamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="196dp">
+
+        <RadioButton
+            android:id="@+id/rb_dinheiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Dinheiro" />
+
+        <RadioButton
+            android:id="@+id/rb_cartao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cartão" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_hr_inicio_corrida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hora inicial"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <EditText
+        android:id="@+id/et_hr_fim_corrida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hora final"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+</android.support.constraint.ConstraintLayout>

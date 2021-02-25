@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alunoinfo.meutaxi">
+
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_meu_taxi"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight">
+        <activity android:name=".MostrarCorridaActivity"></activity>
+        <activity android:name=".VisualizarDiariaActivity" />
+        <activity android:name=".VisualizarVeiculosActivity" />
+        <activity android:name=".VeiculoActivity" />
+        <activity android:name=".GastoActivity" />
+        <activity android:name=".ListarCorridasActivity" />
+        <activity android:name=".DiariaActivity" />
+        <activity android:name=".CorridaActivity" />
+        <activity android:name=".LoginMotoristaActivity" />
+        <activity android:name=".SelecionarLoginActivity" />
+        <activity android:name=".SelecionarCadastroActivity" />
+        <activity android:name=".TelaMotoristaActivity" />
+        <activity android:name=".TelaProprietarioActivity" />
+        <activity android:name=".CadastrarMotoristaActivity" />
+        <activity android:name=".CadastrarProprietarioActivity" />
+        <activity android:name=".LoginProprietarioActivity" />
+        <activity android:name=".InicialActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

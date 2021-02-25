@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9EFFE82C"
+    android:orientation="vertical"
+    tools:context=".CadastrarMotoristaActivity">
+
+    <EditText
+        android:id="@+id/et_nome_motorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_telefone_motorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/et_rua_motorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Rua"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_numero_motorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Número"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_bairro_motorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Bairro"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_cidade_motorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Cidade"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_estado_motorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Estado"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_cep_motorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CEP"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_email_motorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_login_motorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Login"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_senha_motorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/bt_cadastrar_motorista_final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar motorista" />
+
+</LinearLayout>
